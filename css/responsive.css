@@ -1,6 +1,14 @@
 /* media query for small devices */
 @media screen and (max-width: 576px) {
-    h1{
-        background-color: green;
+    .menu{
+        display: none;
+    }
+    
+    .hamburger-menu{
+        display: block;
+    }
+
+    nav{
+        justify-content: space-around;
     }
 }
