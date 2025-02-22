@@ -12,9 +12,10 @@
 
 /* header section start-------------------------------------------------------------------------- */
 header {
-    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
-    /* background: rgb(17, 17, 17); */
+    background: linear-gradient(180deg, rgb(17, 17, 17) 100%,rgba(119, 119, 119, 0) 100%);
+    /* background: linear-gradient(90deg, rgba(15,14,30,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
     margin-bottom: 6rem;
+    padding-top: 1.5rem;
 }
 
 /* nav related css */
@@ -24,13 +25,14 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 1.5rem;
     /* border: 1px solid green; */
 }
 
 .nav-title {
     color: rgb(230, 83, 60);
     font-size: 2.16rem;
-    font-weight: 800;
+    font-weight: 600;
     /* border: 1px solid green; */
 }
 
@@ -39,6 +41,7 @@ nav {
     gap: 0.93rem;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 2.34rem;
+    padding: 0.25rem 0.50rem;
 }
 
 .menu li {
@@ -58,6 +61,116 @@ nav {
     padding: 0.25rem 0.50rem;
 }
 
-.hamburger-menu{
+.hamburger-menu {
     display: none;
 }
+
+/* banner related css */
+.banner {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.banner-text {
+    width: 50%;
+}
+
+.banner-text h1 {
+    font-size: 4.68rem;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    margin-bottom: 1.68rem;
+}
+
+.banner-text p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.96rem;
+    margin-bottom: 1.68rem;
+}
+
+.italic-title {
+    font-style: italic;
+    font-weight: 200;
+}
+
+.btn-1 {
+    border-radius: 2.52rem;
+    background: rgb(230, 83, 60);
+    padding: 0.62rem 1.25rem;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.08rem;
+    font-weight: 600;
+    margin-right: 15px;
+}
+
+.btn-2 {
+    border-radius: 2.52rem;
+    background: transparent;
+    padding: 0.62rem 1.25rem;
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    font-size: 1.08rem;
+    font-weight: 600;
+}
+
+.banner-photo {
+    width: 50%;
+    position: relative;
+}
+
+.banner-photo img{
+    width: 100%;
+}
+
+
+.video-badge-1 {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(25px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    position: absolute;
+    bottom: 60%;
+    right: 10%;
+}
+
+.video-badge-2 {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(25px);
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    bottom: 15%;
+    left: -5%;
+}
+
+.circle{
+    width: 2.38rem;
+    height: 2.38rem;
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+}
+
+
+.vb-big{
+    font-size: 2.38rem;
+    font-weight: 800;
+    color: white;
+}
+
+.vb-small{
+    font-size: 0.80rem;
+    font-weight: 500;
+    color: white;
+}
+
+

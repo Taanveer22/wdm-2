@@ -11,4 +11,23 @@
     nav{
         justify-content: space-around;
     }
+
+    .banner{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner-text{
+        width: 80%;
+    }
+
+    .banner-photo{
+        width: 85%;
+    }
+
+    .btn-1{
+        margin-bottom: 15px;
+    }
+
+    
 }
