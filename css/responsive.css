@@ -34,5 +34,9 @@
         gap: 15px;
     }
 
+    .running-content{
+        flex-direction: column;
+    }
+
     
 }

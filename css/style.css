@@ -10,13 +10,24 @@
     font-family: "Inter", serif;
 }
 
-.common-title{
+.common-btn {
+    border-radius: 2.52rem;
+    background: rgb(230, 83, 60);
+    padding: 0.62rem 1.25rem;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.08rem;
+    font-weight: 600;
+   
+}
+
+.common-title {
     color: rgb(255, 255, 255);
     font-size: 2.88rem;
     font-weight: 800;
 }
 
-.common-description{
+.common-description {
     color: rgba(255, 255, 255, 0.5);
     font-weight: 400;
     font-size: 0.85rem;
@@ -24,7 +35,7 @@
 
 /* header section start-------------------------------------------------------------------------- */
 header {
-    background: linear-gradient(180deg, rgb(17, 17, 17) 100%,rgba(119, 119, 119, 0) 100%);
+    background: linear-gradient(180deg, rgb(17, 17, 17) 100%, rgba(119, 119, 119, 0) 100%);
     margin-bottom: 1px;
     padding-top: 1.5rem;
 }
@@ -108,16 +119,7 @@ nav {
     font-weight: 200;
 }
 
-.btn-1 {
-    border-radius: 2.52rem;
-    background: rgb(230, 83, 60);
-    padding: 0.62rem 1.25rem;
-    border: none;
-    color: rgb(255, 255, 255);
-    font-size: 1.08rem;
-    font-weight: 600;
-    margin-right: 15px;
-}
+
 
 .btn-2 {
     border-radius: 2.52rem;
@@ -127,6 +129,7 @@ nav {
     color: rgb(255, 255, 255);
     font-size: 1.08rem;
     font-weight: 600;
+    margin-left: 15px;
 }
 
 .banner-photo {
@@ -134,8 +137,9 @@ nav {
     position: relative;
 }
 
-.banner-photo img{
+.banner-photo img {
     width: 100%;
+    object-fit: cover;
 }
 
 
@@ -165,7 +169,7 @@ nav {
     left: -5%;
 }
 
-.circle{
+.circle {
     width: 2.38rem;
     height: 2.38rem;
     background: rgb(230, 83, 60);
@@ -173,33 +177,35 @@ nav {
 }
 
 
-.vb-big{
+.vb-big {
     font-size: 2.38rem;
     font-weight: 800;
     color: white;
 }
 
-.vb-small{
+.vb-small {
     font-size: 0.80rem;
     font-weight: 500;
     color: white;
 }
 
 /* main section start--------------------------------------------------------------- */
-#habits{
+#habits {
     background: rgb(0, 0, 0);
     padding-top: 95px;
     padding-bottom: 95px;
     margin-bottom: 1px;
-    
+
 }
-.habits-content{
+
+.habits-content {
     background: rgb(0, 0, 0);
     max-width: 1024px;
     margin: 0 auto;
 }
 
-.habits-content h2, p{
+.habits-content h2,
+p {
     text-align: center;
 }
 
@@ -210,15 +216,15 @@ nav {
     align-items: center;
 }
 
-.single-habit-card{
+.single-habit-card {
     /* border: 1px solid white; */
     width: 222px;
     height: 263px;
     padding: 10px;
-    
+
 }
 
-.single-habit-card img{
+.single-habit-card img {
     width: 160px;
     height: 160px;
     border-radius: 50%;
@@ -226,20 +232,54 @@ nav {
     margin-left: 20px;
 }
 
-.single-habit-card h5, h6{
+.single-habit-card h5,
+h6 {
     text-align: center;
 }
 
-.single-habit-card h5{
+.single-habit-card h5 {
     font-size: 1rem;
     font-weight: 600;
     color: rgb(255, 255, 255);
 }
 
-.single-habit-card h6{
+.single-habit-card h6 {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.85rem;
     font-weight: 400;
 }
 
+/* running related css */
+#running {
+    background: rgb(0, 0, 0);
+    padding-top: 95px;
+    padding-bottom: 95px;
+    margin-bottom: 1px;
+}
 
+.running-content {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 28px;
+    border-radius: 16px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.running-text{
+    width: 50%;
+}
+
+
+.running-photo{
+    width: 50%;
+}
+
+.running-photo img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
