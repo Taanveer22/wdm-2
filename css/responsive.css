@@ -29,5 +29,10 @@
         margin-bottom: 15px;
     }
 
+    .habits-card-container{
+        flex-direction: column;
+        gap: 15px;
+    }
+
     
 }
