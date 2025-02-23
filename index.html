@@ -73,8 +73,9 @@
         <section id="habits">
             <div class="habits-content">
                 <h2 class="common-title" style="margin-bottom: 12px;">Change Your Habits</h2>
-                <p class="common-description">Getting in shape and staying healthy is a journey, not a destination. Be patient with yourself,
-                celebrate your progress, and enjoy the process!</p>
+                <p class="common-description">Getting in shape and staying healthy is a journey, not a destination. Be
+                    patient with yourself,
+                    celebrate your progress, and enjoy the process!</p>
                 <div class="habits-card-container">
 
                     <div class="single-habit-card">
@@ -105,11 +106,13 @@
 
 
         <!-- running related html -->
-         <section id="running">
+        <section id="running">
             <div class="running-content">
                 <div class="running-text">
                     <h2 style="margin-bottom: 13px;" class="common-title">Run an Extra <br> Mile Easily</h2>
-                    <p style="text-align: justify; margin-bottom: 26px;" class="common-description">Running can increase blood circulation, which may stimulate the production of white blood cells. Running can reduce the amount of stress hormone cortisol in your body. </p>
+                    <p style="text-align: justify; margin-bottom: 26px;" class="common-description">Running can increase
+                        blood circulation, which may stimulate the production of white blood cells. Running can reduce
+                        the amount of stress hormone cortisol in your body. </p>
                     <button class="common-btn">Join Now</button>
                 </div>
 
@@ -117,7 +120,99 @@
                     <img src="./resources/images/run.jpg" alt="">
                 </div>
             </div>
-         </section>
+        </section>
+
+
+        <!-- calculator related html -->
+        <section id="calculator">
+            <h2 class="common-title" style="margin-bottom: 13px;text-align: center;">BMI Calculator</h2>
+            <p class="common-description" style="text-align: center;">Body Mass Index (BMI) is a measurement of a
+                person’s weight with respect to
+                his or her height. <br> It is more of an indicator than a direct measurement of a person’s total body fat.
+            </p>
+
+            <div class="bmi-portion">
+
+                <div class="bmi-measurement">
+
+                    <div class="bmi-chart">
+                        <h3 class="common-title-2" style="margin-bottom: 50px;">BMI Calculator Chart</h3>
+
+                        <table class="bmi-table">
+                            <thead>
+                                <tr>
+                                    <th>BMI</th>
+                                    <th>Weight Status</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>Below 18.5</td>
+                                    <td>Underweight</td>
+                                </tr>
+                                <tr>
+                                    <td>18.5 - 24.9</td>
+                                    <td>Healthy</td>
+                                </tr>
+                                <tr>
+                                    <td>25 - 29.9 </td>
+                                    <td>Overweight</td>
+                                </tr>
+                                <tr>
+                                    <td>30 - Above</td>
+                                    <td>Obese</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="bmi-form">
+                        <h3 class="common-title-2" style="margin-bottom: 13px;text-align: center;">Calculate your BMI
+                        </h3>
+                        <p class="common-description" style="margin-bottom: 26px;text-align: center;">Please fill up the
+                            form by giving your information </p>
+
+                        <div class="bmi-form-container">
+                            <div class="form-field">
+                                <input type="text" placeholder="Height/cm" id="">
+                            </div>
+                            <div class="form-field">
+                                <input type="text" placeholder="Weight/kg" id="">
+                            </div>
+                            <div class="form-field">
+                                <input type="text" placeholder="Age" id="">
+                            </div>
+                            <div class="form-field">
+                                <select>
+                                    <option value="" id="sex" selected disabled hidden>Sex</option>
+                                    <option value="male">male</option>
+                                    <option value="female">female</option>
+                                </select>
+                            </div>
+
+                        </div>
+
+                        <div class="factor-field">
+                            <select>
+                                <option value="" selected disabled hidden> Select an activity factor</option>
+                                <option value="1.1">bed rest</option>
+                                <option value="1.2">sedentary</option>
+                                <option value="1.3">light excercise</option>
+                                <option value="1.5">moderate excercise</option>
+                                <option value="1.7">heavy excercise</option>
+                            </select>
+                        </div>
+
+                        <button class="common-btn" style="margin-top: 26px;">Calculate</button>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
 
     </main>
 

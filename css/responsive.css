@@ -39,5 +39,10 @@
         flex-direction: column;
     }
 
+    .bmi-measurement{
+        flex-direction: column;
+        gap: 60px;
+    }
+
     
 }

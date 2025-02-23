@@ -18,7 +18,7 @@
     color: rgb(255, 255, 255);
     font-size: 1.08rem;
     font-weight: 600;
-   
+
 }
 
 .common-title {
@@ -27,10 +27,16 @@
     font-weight: 800;
 }
 
+.common-title-2{
+    color: rgb(255, 255, 255);
+    font-size: 1.68rem;
+    font-weight: 600;
+}
+
 .common-description {
     color: rgba(255, 255, 255, 0.5);
-    font-weight: 400;
     font-size: 0.85rem;
+    font-weight: 400;
 }
 
 /* header section start-------------------------------------------------------------------------- */
@@ -269,17 +275,93 @@ h6 {
     gap: 50px;
 }
 
-.running-text{
+.running-text {
     width: 50%;
 }
 
 
-.running-photo{
+.running-photo {
     width: 50%;
 }
 
-.running-photo img{
+.running-photo img {
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
 }
+
+
+/* calculator related css */
+#calculator {
+    background: rgb(0, 0, 0);
+    padding-top: 95px;
+    padding-bottom: 95px;
+    margin-bottom: 1px;
+}
+
+.bmi-portion{
+    margin-top: 84px;
+    background: rgb(34, 34, 34);
+}
+
+.bmi-measurement{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding-top: 47px;
+    padding-bottom: 47px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bmi-chart{
+    width: 50%;
+}
+
+.bmi-table{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+.bmi-table th, td{
+    border: 1px solid white;
+    padding: 10px 20px;
+}
+
+.bmi-table thead{
+    color: rgb(255, 255, 255);
+}
+
+.bmi-table tbody{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bmi-form-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.bmi-form{
+    width: 50%;
+}
+
+.bmi-form-container input, select{
+    border: 1px solid gray;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.bmi-form-container .form-field{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.85rem;
+    width: 49%;
+}
+
+.factor-field{
+    margin-top: 10px;
+}
+
+
+
+/* opt */
