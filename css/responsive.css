@@ -30,6 +30,10 @@
         font-weight: 700;
     }
 
+    .btn-2 {
+        margin-left: 5px;
+    }
+
     .habits-card-container {
         flex-direction: column;
         gap: 15px;
