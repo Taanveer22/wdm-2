@@ -364,4 +364,105 @@ h6 {
 
 
 
-/* opt */
+/* team related css */
+#team{
+    background: rgb(0, 0, 0) ;
+    padding-top: 84px;
+    padding-bottom: 84px;
+    margin-bottom: 1px;
+}
+
+.trainer-container{
+    background:rgb(34, 34, 34) ;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 16px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+
+.trainer-1{
+    background-image: url("../resources/trainer/trainer1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 312px;
+    height: 260px;
+    border-radius: 15px;
+    position: relative;
+    text-align: center;
+}
+.trainer-2{
+    background-image: url("../resources/trainer/trainer2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 312px;
+    height: 260px;
+    border-radius: 15px;
+    position: relative;
+    text-align: center;
+}
+.trainer-3{
+    background-image: url("../resources/trainer/trainer3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 312px;
+    height: 260px;
+    border-radius: 15px;
+    position: relative;
+    text-align: center;
+}
+.trainer-4{
+    background-image: url("../resources/trainer/trainer4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 312px;
+    height: 260px;
+    border-radius: 15px;
+    position: relative;
+    text-align: center;
+}
+.trainer-5{
+    background-image: url("../resources/trainer/trainer5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 312px;
+    height: 260px;
+    border-radius: 15px;
+    position: relative;
+    text-align: center;
+}
+.trainer-6{
+    background-image: url("../resources/trainer/trainer6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 312px;
+    height: 260px;
+    border-radius: 15px;
+    position: relative;
+    text-align: center;
+}
+
+.trainer-info{
+    position: absolute;
+    top: 85%;
+    left: 15%;
+}
+
+.trainer-info h4{
+    color: rgb(255, 255, 255);
+}
+
+.trainer-info h6{
+    color: rgba(255, 255, 255, 0.5);
+}
+
