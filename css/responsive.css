@@ -1,48 +1,52 @@
 /* media query for small devices */
 @media screen and (max-width: 576px) {
-    .menu{
+    .menu {
         display: none;
     }
-    
-    .hamburger-menu{
+
+    .hamburger-menu {
         display: block;
     }
 
-    nav{
+    nav {
         justify-content: space-around;
     }
 
-    .banner{
+    .banner {
         flex-direction: column;
         align-items: center;
     }
 
-    .banner-text{
-        width: 80%;
+    .banner-text {
+        width: 90%;
     }
 
-    .banner-photo{
+    .banner-photo {
         width: 85%;
     }
 
-    .btn-2{
-        margin-top: 15px;
-        margin-left: -3px;
+    .banner-text h1 {
+        font-size: 3rem;
+        font-weight: 700;
     }
 
-    .habits-card-container{
+    .habits-card-container {
         flex-direction: column;
         gap: 15px;
     }
 
-    .running-content{
+    .running-content {
         flex-direction: column;
     }
 
-    .bmi-measurement{
+    .bmi-measurement {
         flex-direction: column;
         gap: 60px;
     }
 
-    
+    .bmi-form-container .form-field {
+        width: 100%;
+    }
+
+
 }
