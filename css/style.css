@@ -20,6 +20,16 @@
     font-weight: 600;
 
 }
+.common-btn-2 {
+    border-radius: 2.52rem;
+    background: rgb(76, 89, 3);
+    padding: 0.62rem 1.25rem;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 600;
+
+}
 
 .common-title {
     color: rgb(255, 255, 255);
@@ -466,3 +476,49 @@ h6 {
     color: rgba(255, 255, 255, 0.5);
 }
 
+
+/* membership related css */
+#membership{
+    background: rgb(0, 0, 0) ;
+    padding-top: 84px;
+    padding-bottom: 84px;
+    margin: 1px;
+}
+
+.package-container{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.single-package{
+    background: rgb(34, 34, 34);
+    color: rgb(255, 255, 255);
+    width: 300px;
+    height: 300px;
+    /* border: 2px solid green; */
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.single-package h4, h5{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.package-info{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.package-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
