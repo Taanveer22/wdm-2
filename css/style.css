@@ -522,3 +522,74 @@ h6 {
     justify-content: center;
     align-items: center;
 }
+
+
+/* footer section style start ------------------------------------------------------------------- */
+footer{
+    background: rgb(34, 34, 34);
+    padding-top: 64px;
+    padding-bottom: 33px;
+}
+
+.footer-container{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.fitness-logo{
+    color: rgb(230, 83, 60);
+    font-size: 4.18rem;
+    font-weight: 800;
+}
+
+.fitness-info{
+    width: 50%;
+}
+
+.company-profile{
+    width: 20%;
+}
+
+.company-profile ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.company-profile ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+}
+
+.get-started{
+    width: 20%;
+}
+
+.get-started ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.get-started ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+}
+
+.footer-copyright{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.footer-copyright hr{
+    margin-bottom: 33px;
+}
+
+.footer-copyright p{
+    color: rgba(255, 255, 255, 0.5);
+}
+
