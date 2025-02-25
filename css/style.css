@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 /* common styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +21,6 @@
     color: rgb(255, 255, 255);
     font-size: 1rem;
     font-weight: 600;
-
 }
 
 .common-btn-2 {
@@ -31,7 +31,6 @@
     color: rgb(255, 255, 255);
     font-size: 1rem;
     font-weight: 600;
-
 }
 
 .common-title {
@@ -163,10 +162,10 @@ nav {
 
 .video-badge-1 {
     border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
+    border-radius: 0.625rem;
     backdrop-filter: blur(25px);
     background: rgba(255, 255, 255, 0.1);
-    padding: 10px;
+    padding: 0.625rem;
     position: absolute;
     bottom: 60%;
     right: 10%;
@@ -174,14 +173,14 @@ nav {
 
 .video-badge-2 {
     border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
+    border-radius: 0.625rem;
     backdrop-filter: blur(25px);
     background: rgba(255, 255, 255, 0.1);
-    padding: 10px;
+    padding: 0.625rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
+    gap: 0.625rem;
     position: absolute;
     bottom: 15%;
     left: -5%;
@@ -210,8 +209,8 @@ nav {
 /* main section start--------------------------------------------------------------- */
 #habits {
     background: rgb(0, 0, 0);
-    padding-top: 95px;
-    padding-bottom: 95px;
+    padding-top: 5.93rem;
+    padding-bottom: 5.93rem;
     /* margin-bottom: 1px; */
 
 }
@@ -228,7 +227,7 @@ p {
 }
 
 .habits-card-container {
-    margin-top: 55px;
+    margin-top: 3.43rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -270,21 +269,21 @@ h6 {
 /* running related css */
 #running {
     background: rgb(0, 0, 0);
-    padding-top: 95px;
-    padding-bottom: 95px;
+    padding-top: 5.93rem;
+    padding-bottom: 5.93rem;
     /* margin-bottom: 1px; */
 }
 
 .running-content {
     max-width: 1024px;
     margin: 0 auto;
-    padding: 28px;
-    border-radius: 16px;
+    padding: 1.75rem;
+    border-radius: 1rem;
     background: rgb(34, 34, 34);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    gap: 3.125rem;
 }
 
 .running-text {
@@ -306,21 +305,21 @@ h6 {
 /* calculator related css */
 #calculator {
     background: rgb(0, 0, 0);
-    padding-top: 95px;
-    padding-bottom: 95px;
+    padding-top: 5.93rem;
+    padding-bottom: 5.93rem;
     /* margin-bottom: 1px; */
 }
 
 .bmi-portion {
-    margin-top: 84px;
+    margin-top: 5.25rem;
     background: rgb(34, 34, 34);
 }
 
 .bmi-measurement {
     max-width: 1024px;
     margin: 0 auto;
-    padding-top: 47px;
-    padding-bottom: 47px;
+    padding-top: 2.93rem;
+    padding-bottom: 2.93rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -338,7 +337,7 @@ h6 {
 .bmi-table th,
 td {
     border: 1px solid white;
-    padding: 10px 20px;
+    padding: 0.62rem 1.25rem;
 }
 
 .bmi-table thead {
@@ -352,7 +351,7 @@ td {
 .bmi-form-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 0.62rem;
 }
 
 .bmi-form {
@@ -363,7 +362,7 @@ td {
 select {
     border: 1px solid gray;
     width: 100%;
-    padding: 10px 20px;
+    padding: 0.62rem 1.25rem;
 }
 
 .bmi-form-container .form-field {
@@ -373,7 +372,7 @@ select {
 }
 
 .factor-field {
-    margin-top: 10px;
+    margin-top: 0.62rem;
 }
 
 
@@ -381,8 +380,8 @@ select {
 /* team related css */
 #team {
     background: rgb(0, 0, 0);
-    padding-top: 84px;
-    padding-bottom: 84px;
+    padding-top: 5.25rem;
+    padding-bottom: 5.25rem;
     /* margin-bottom: 1px; */
 }
 
@@ -390,13 +389,13 @@ select {
     background: rgb(34, 34, 34);
     max-width: 1024px;
     margin: 0 auto;
-    padding: 20px;
-    border-radius: 16px;
+    padding: 1.25rem;
+    border-radius: 1rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     align-content: center;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .trainer-1 {
@@ -489,8 +488,8 @@ select {
 /* membership related css */
 #membership {
     background: rgb(0, 0, 0);
-    padding-top: 84px;
-    padding-bottom: 84px;
+    padding-top: 5.25rem;
+    padding-bottom: 5.25rem;
     /* margin-bottom: 1px; */
 }
 
@@ -515,16 +514,16 @@ select {
 .single-package h4,
 h5 {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 0.62rem;
 }
 
 .package-info {
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
-    gap: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    gap: 0.62rem;
+    margin-top: 0.62rem;
+    margin-bottom: 0.62rem;
 }
 
 .package-btn {
@@ -537,8 +536,8 @@ h5 {
 /* footer section style start ------------------------------------------------------------------- */
 footer {
     background: rgb(34, 34, 34);
-    padding-top: 64px;
-    padding-bottom: 33px;
+    padding-top: 4rem;
+    padding-bottom: 2.06rem;
 }
 
 .footer-container {
@@ -547,7 +546,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 64px;
+    margin-bottom: 4rem;
 }
 
 .fitness-logo {
@@ -566,7 +565,7 @@ footer {
 
 .company-profile ul li {
     list-style: none;
-    margin-bottom: 10px;
+    margin-bottom: 0.62rem;
 }
 
 .company-profile ul li a {
@@ -581,7 +580,7 @@ footer {
 
 .get-started ul li {
     list-style: none;
-    margin-bottom: 10px;
+    margin-bottom: 0.62rem;
 }
 
 .get-started ul li a {
@@ -596,7 +595,7 @@ footer {
 }
 
 .footer-copyright hr {
-    margin-bottom: 33px;
+    margin-bottom: 2.06rem;
 }
 
 .footer-copyright p {
