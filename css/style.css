@@ -2,6 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 /* common styles */
 * {
     margin: 0;
@@ -20,6 +22,7 @@
     font-weight: 600;
 
 }
+
 .common-btn-2 {
     border-radius: 2.52rem;
     background: rgb(76, 89, 3);
@@ -37,7 +40,7 @@
     font-weight: 800;
 }
 
-.common-title-2{
+.common-title-2 {
     color: rgb(255, 255, 255);
     font-size: 1.68rem;
     font-weight: 600;
@@ -120,7 +123,7 @@ nav {
 .banner-text h1 {
     font-size: 4.68rem;
     color: rgb(255, 255, 255);
-    font-weight: 700;
+    font-weight: 900;
     margin-bottom: 1.68rem;
 }
 
@@ -130,12 +133,11 @@ nav {
     margin-bottom: 1.68rem;
 }
 
-.italic-title {
+.handwriting-font {
+    font-family: "Dancing Script", serif;
     font-style: italic;
-    font-weight: 200;
+    font-weight: 400;
 }
-
-
 
 .btn-2 {
     border-radius: 2.52rem;
@@ -309,12 +311,12 @@ h6 {
     /* margin-bottom: 1px; */
 }
 
-.bmi-portion{
+.bmi-portion {
     margin-top: 84px;
     background: rgb(34, 34, 34);
 }
 
-.bmi-measurement{
+.bmi-measurement {
     max-width: 1024px;
     margin: 0 auto;
     padding-top: 47px;
@@ -324,66 +326,68 @@ h6 {
     align-items: center;
 }
 
-.bmi-chart{
+.bmi-chart {
     width: 50%;
 }
 
-.bmi-table{
+.bmi-table {
     border: 1px solid white;
     border-collapse: collapse;
 }
 
-.bmi-table th, td{
+.bmi-table th,
+td {
     border: 1px solid white;
     padding: 10px 20px;
 }
 
-.bmi-table thead{
+.bmi-table thead {
     color: rgb(255, 255, 255);
 }
 
-.bmi-table tbody{
+.bmi-table tbody {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.bmi-form-container{
+.bmi-form-container {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
 
-.bmi-form{
+.bmi-form {
     width: 50%;
 }
 
-.bmi-form-container input, select{
+.bmi-form-container input,
+select {
     border: 1px solid gray;
     width: 100%;
     padding: 10px 20px;
 }
 
-.bmi-form-container .form-field{
+.bmi-form-container .form-field {
     color: rgba(255, 255, 255, 0.6);
     font-size: 0.85rem;
     width: 49%;
 }
 
-.factor-field{
+.factor-field {
     margin-top: 10px;
 }
 
 
 
 /* team related css */
-#team{
-    background: rgb(0, 0, 0) ;
+#team {
+    background: rgb(0, 0, 0);
     padding-top: 84px;
     padding-bottom: 84px;
     /* margin-bottom: 1px; */
 }
 
-.trainer-container{
-    background:rgb(34, 34, 34) ;
+.trainer-container {
+    background: rgb(34, 34, 34);
     max-width: 1024px;
     margin: 0 auto;
     padding: 20px;
@@ -395,7 +399,7 @@ h6 {
     gap: 20px;
 }
 
-.trainer-1{
+.trainer-1 {
     background-image: url("../resources/trainer/trainer1.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -406,7 +410,8 @@ h6 {
     position: relative;
     text-align: center;
 }
-.trainer-2{
+
+.trainer-2 {
     background-image: url("../resources/trainer/trainer2.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -417,7 +422,8 @@ h6 {
     position: relative;
     text-align: center;
 }
-.trainer-3{
+
+.trainer-3 {
     background-image: url("../resources/trainer/trainer3.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -428,7 +434,8 @@ h6 {
     position: relative;
     text-align: center;
 }
-.trainer-4{
+
+.trainer-4 {
     background-image: url("../resources/trainer/trainer4.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -439,7 +446,8 @@ h6 {
     position: relative;
     text-align: center;
 }
-.trainer-5{
+
+.trainer-5 {
     background-image: url("../resources/trainer/trainer5.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -450,7 +458,8 @@ h6 {
     position: relative;
     text-align: center;
 }
-.trainer-6{
+
+.trainer-6 {
     background-image: url("../resources/trainer/trainer6.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -462,30 +471,30 @@ h6 {
     text-align: center;
 }
 
-.trainer-info{
+.trainer-info {
     position: absolute;
     top: 85%;
     left: 15%;
 }
 
-.trainer-info h4{
+.trainer-info h4 {
     color: rgb(255, 255, 255);
 }
 
-.trainer-info h6{
+.trainer-info h6 {
     color: rgba(255, 255, 255, 0.5);
 }
 
 
 /* membership related css */
-#membership{
-    background: rgb(0, 0, 0) ;
+#membership {
+    background: rgb(0, 0, 0);
     padding-top: 84px;
     padding-bottom: 84px;
     /* margin-bottom: 1px; */
 }
 
-.package-container{
+.package-container {
     max-width: 1024px;
     margin: 0 auto;
     display: flex;
@@ -493,7 +502,7 @@ h6 {
     align-items: center;
 }
 
-.single-package{
+.single-package {
     background: rgb(34, 34, 34);
     color: rgb(255, 255, 255);
     width: 300px;
@@ -503,12 +512,13 @@ h6 {
     padding: 15px;
 }
 
-.single-package h4, h5{
+.single-package h4,
+h5 {
     text-align: center;
     margin-bottom: 10px;
 }
 
-.package-info{
+.package-info {
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
@@ -517,7 +527,7 @@ h6 {
     margin-bottom: 10px;
 }
 
-.package-btn{
+.package-btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -525,13 +535,13 @@ h6 {
 
 
 /* footer section style start ------------------------------------------------------------------- */
-footer{
+footer {
     background: rgb(34, 34, 34);
     padding-top: 64px;
     padding-bottom: 33px;
 }
 
-.footer-container{
+.footer-container {
     max-width: 1024px;
     margin: 0 auto;
     display: flex;
@@ -540,21 +550,21 @@ footer{
     margin-bottom: 64px;
 }
 
-.fitness-logo{
+.fitness-logo {
     color: rgb(230, 83, 60);
     font-size: 4.18rem;
     font-weight: 800;
 }
 
-.fitness-info{
+.fitness-info {
     width: 50%;
 }
 
-.company-profile{
+.company-profile {
     width: 20%;
 }
 
-.company-profile ul li{
+.company-profile ul li {
     list-style: none;
     margin-bottom: 10px;
 }
@@ -565,7 +575,7 @@ footer{
     font-size: 1rem;
 }
 
-.get-started{
+.get-started {
     width: 20%;
 }
 
@@ -580,16 +590,15 @@ footer{
     font-size: 1rem;
 }
 
-.footer-copyright{
+.footer-copyright {
     max-width: 1024px;
     margin: 0 auto;
 }
 
-.footer-copyright hr{
+.footer-copyright hr {
     margin-bottom: 33px;
 }
 
-.footer-copyright p{
+.footer-copyright p {
     color: rgba(255, 255, 255, 0.5);
 }
-
