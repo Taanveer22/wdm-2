@@ -9,7 +9,8 @@
     }
 
     nav {
-        justify-content: space-around;
+        justify-content: space-between;
+        width: 80%;
     }
 
     .banner {
@@ -18,11 +19,11 @@
     }
 
     .banner-text {
-        width: 90%;
+        width: 80%;
     }
 
     .banner-photo {
-        width: 85%;
+        width: 80%;
     }
 
     .banner-text h1 {
@@ -34,6 +35,12 @@
         margin-left: 5px;
     }
 
+    .habits-content h2,
+    p {
+        width: 80%;
+        margin: 0 auto;
+    }
+
     .habits-card-container {
         flex-direction: column;
         gap: 15px;
@@ -41,6 +48,21 @@
 
     .running-content {
         flex-direction: column;
+        gap: 20px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .running-text{
+        width: 100%;
+    }
+
+    .running-text p{
+        margin-right: 70px;
+    }
+
+    .running-photo{
+        width: 100%;
     }
 
     .bmi-measurement {
@@ -52,18 +74,18 @@
         width: 100%;
     }
 
-    .trainer-container{
-        width: 90%;
+    .trainer-container {
+        width: 80%;
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .package-container{
+    .package-container {
         flex-direction: column;
         align-items: center;
         gap: 20px;
     }
 
-    .footer-container{
+    .footer-container {
         flex-direction: column;
         gap: 30px;
     }
